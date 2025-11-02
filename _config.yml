@@ -7,5 +7,4 @@ theme: minima
 plugins: []
 paginate: 5
 author:
-  name: "Nombre de la Comunidad"
-  email: "tu.email@example.com"
+  Telegram: "https://t.me/ClubCyberDefenseArgentina"
