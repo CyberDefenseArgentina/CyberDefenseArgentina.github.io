@@ -1,9 +1,24 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4KY54KZLPX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  gtag('config', 'G-4KY54KZLPX');
-</script>
+  {%- seo -%}
+
+  <!-- Hoja de estilos del tema Minima -->
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
+  <!-- Feed RSS opcional -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+  {%- if jekyll.environment == "production" -%}
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4KY54KZLPX', {'send_page_view': true});
+  </script>
+  {%- endif -%}
+</head>
