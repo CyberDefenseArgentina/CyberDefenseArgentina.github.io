@@ -12,6 +12,6 @@ Mientras tanto, se recomienda como mitigación temporal deshabilitar el rol de W
 Para ejecutivos de seguridad, el mensaje clave es claro: no basta con depender del parche semanal de rutina. Una mala configuración (por ejemplo, un WSUS expuesto a Internet) combinada con una vulnerabilidad grave convierte una plataforma de parcheo en una puerta trasera para adversarios.
 
 
-Visita la plataforma [OpenCVE](https://app.opencve.io/cve/CVE-2025-59287)) para conocer más.
+Visita la plataforma [OpenCVE](https://app.opencve.io/cve/CVE-2025-59287) para conocer más.
 
 ![fallo-critico-en-servidores-Windows-WSUS](/assets/img/G4cBetYXgAEBrVf.jpg)
